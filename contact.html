@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+    <title>экскурсия</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://use.fontawesome.com/9b701ba3c8.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<header class="header-section">
+    <a href="index.html" class="site-logo">
+        авиапутешествие
+    </a>
+    <ul class="main-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="blog.html">Статьи</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+    </ul>
+    <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0"
+                                  class="slicknav_btn slicknav_collapsed"><span
+            class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span
+            class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a>
+        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+            <li><a href="index.html" role="menuitem" tabindex="-1">Главная</a></li>
+            <li><a href="blog.html" role="menuitem" tabindex="-1">Статьи</a></li>
+            <li><a href="contact.html" role="menuitem" tabindex="-1">Контакты</a></li>
+        </ul>
+    </div>
+</header>
+
+<style>
+    .header-section {
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: #353535;
+        z-index: 9999;
+    }
+
+    .site-logo {
+        display: inline-block;
+        padding: 21px 55px 20px;
+        background: #222222;
+    }
+
+    .main-menu {
+        display: inline-block;
+        padding-left: 44px;
+        position: relative;
+        z-index: 99;
+        background: #353535;
+        margin: 0;
+    }
+
+    .main-menu li {
+        display: inline-block;
+    }
+
+    .main-menu li a {
+        position: relative;
+        display: block;
+        padding: 44px 7px;
+        margin-right: 55px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .main-menu li a:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 3px;
+        left: 0;
+        bottom: 0;
+        background: #10ddb4;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .main-menu li a:hover:after {
+        width: 100%;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    .header-add {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 43%;
+        height: 100%;
+        text-align: right;
+    }
+
+    .header-add img {
+        height: 100%;
+    }
+</style>
+
+<div class="contact-area section_padding_80">
+    <div class="container">
+        <!-- Contact Info Area Start -->
+        <div class="contact-info-area section_padding_80_50">
+            <div class="row">
+                <!-- Single Contact Info -->
+                <div class="col-12 col-md-4">
+                    <div class="single-contact-info mb-30 text-center fadeInUp">
+                        <p>363688, Калужская область, город Люберцы, пл. Ленина, 04 <br> Email: yna27@gmail.com <br> Phone: +9650529920847</p>
+                    </div>
+                </div>
+                <!-- Single Contact Info -->
+                <div class="col-12 col-md-4">
+                    <div class="single-contact-info mb-30 text-center fadeInUp">
+                        <p>120677, Липецкая область, город Озёры, въезд Косиора, 65 <br> Email: yna27@gmail.com <br> Phone: +5303846675083</p>
+                    </div>
+                </div>
+                <!-- Single Contact Info -->
+                <div class="col-12 col-md-4">
+                    <div class="single-contact-info mb-30 text-center fadeInUp">
+                        <p>272507, Ленинградская область, город Воскресенск, спуск Будапештсткая, 18 <br> Email: yna27@gmail.com <br> Phone: +8356531085277</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Form  -->
+        <div class="contact-form-area">
+            <div class="row">
+
+                <div class="col-12 col-md-7 item" style="height: 587px;">
+                    <div class="contact-form fadeInUpBig">
+                        <h2 class="contact-form-title mb-30">Оставьте комментарий</h2>
+                        <!-- Contact Form -->
+                        <form action="thanks.html" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Новые телефона">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="contact-lastname" placeholder="Фамилия">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="contact-email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="contact-phone" placeholder="Номер телефона">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Текст комментария"></textarea>
+                                <label class="terms-field">
+                                    <input type="checkbox" name="terms" value="check" required="">
+                                    <a href="policy.html" target="_blank">
+                                        Я прочитал и согласен с условиями пользовательского соглашения
+                                    </a>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn contact-btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .section_padding_80 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .section_padding_80_50 {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    .pagination-area .page-status p, .contact-info-area .single-contact-info p {
+        margin-bottom: 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        color: #232d37;
+        line-height: 1.25;
+    }
+    .h2, h2 {
+        font-size: 2rem;
+    }
+    .contact-form .form-control, .comment-form .form-control {
+        border: 1px solid #ebebeb;
+        height: 50px;
+    }
+    .contact-form textarea.form-control, .comment-form textarea.form-control {
+        height: 130px;
+    }
+    .terms-field {
+        margin-top: 10px;
+    }
+
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        font-weight: 500;
+        outline: none;
+    }
+
+    .contact-btn {
+        margin-top: 25px;
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #fff;
+        background-color: #fc6c3f;
+        border-radius: 30px;
+    }
+</style>
+
+<footer id="footer">
+
+    <!-- Bottom Footer -->
+    <div id="bottom-footer" class="section">
+        <!-- CONTAINER -->
+        <div class="container">
+            <!-- ROW -->
+            <div class="row">
+                <!-- footer links -->
+                <div class="col-md-12">
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="blog.html">Статьи</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="terms.html">Условия и положения</a></li>
+                        <li><a href="policy.html">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <!-- /footer links -->
+
+            </div>
+            <!-- /ROW -->
+        </div>
+        <!-- /CONTAINER -->
+    </div>
+    <!-- /Bottom Footer -->
+</footer>
+
+<style>
+    #footer {
+        padding: 15px 0;
+        background-color: #07090C;
+    }
+
+    #footer p {
+        color:#DDD;
+    }
+
+    #footer a {
+        color:#DDD;
+    }
+
+    #footer a:hover {
+        color:#EF233C;
+    }
+
+    /*------------------------------------*\
+        Top Footer
+    \*------------------------------------*/
+    .footer-widget  {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    .footer-widget .widget-title {
+        margin-bottom:15px;
+    }
+
+    .footer-widget .widget-title .title {
+        font-size:15px;
+        text-transform:uppercase;
+        color:#FFF;
+        margin-top:10px;
+    }
+
+    .footer-widget .footer-logo .logo {
+        display:inline-block;
+        margin-bottom:15px;
+    }
+
+    .footer-widget .footer-logo .logo  > img {
+        width: 100%;
+        max-height: 90px;
+    }
+
+    /*------------------------------------*\
+        Bottom Footer
+    \*------------------------------------*/
+    .footer-links {
+        margin-bottom: 0;
+        text-align:center;
+    }
+
+    .footer-links li {
+        display:inline-block;
+    }
+
+    .footer-links li a {
+        display: block;
+        padding: 0px 10px;
+        color: #DDD;
+        font-size: 12.5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .footer-copyright {
+        color: #DDD;
+    }
+</style>
